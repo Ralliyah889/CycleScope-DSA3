@@ -1,0 +1,8 @@
+Module,Depends_On
+Frontend,APIServer
+APIServer,Database
+Database,none
+WorkerAlpha,WorkerBeta
+WorkerBeta,WorkerAlpha
+DocsGenerator,none
+TelemetryAgent,none

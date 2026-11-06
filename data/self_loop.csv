@@ -1,0 +1,6 @@
+Module,Depends_On
+RecursiveCompiler,RecursiveCompiler
+CoreLib,none
+AppServer,CoreLib
+AppServer,RecursiveCompiler
+MonitoringDaemon,AppServer

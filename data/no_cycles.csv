@@ -1,0 +1,14 @@
+Module,Depends_On
+Config,none
+Database,Config
+Logger,Config
+AuthService,Database
+AuthService,Logger
+UserService,AuthService
+UserService,Database
+OrderService,UserService
+OrderService,Database
+PaymentGateway,OrderService
+FrontendUI,PaymentGateway
+FrontendUI,UserService
+ReportingService,Database

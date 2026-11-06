@@ -1,0 +1,17 @@
+# C++ build artifacts
+bin/
+*.o
+*.out
+*.dSYM/
+
+# Python virtual environment & cache
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# OS specific files
+.DS_Store
+Thumbs.db

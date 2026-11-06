@@ -1,0 +1,10 @@
+Module,Depends_On
+AuthService,TokenManager
+TokenManager,UserSession
+UserSession,AuthService
+OrderService,BillingService
+BillingService,InvoiceService
+InvoiceService,OrderService
+NotificationWorker,BillingService
+AnalyticsEngine,OrderService
+StaticAssetServer,none
